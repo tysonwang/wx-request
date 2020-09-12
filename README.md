@@ -23,7 +23,7 @@ export {
 
 // 该工具库当前用于小程序 ,如果用于web使用基本相同，已封装了get post put delete,如需扩展可自配，实际使用方式如下
 //app.js文件配置
-import {http} from './wx-http';
+import {http} from './wx-request';
 App({
   // 全局data
   data: {
