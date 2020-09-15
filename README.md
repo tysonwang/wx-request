@@ -1,4 +1,4 @@
-# 微信小程序 请求的封装
+# 请求的封装
 
 ```javascript
 //在使用前需要向wx-request的index.js里的Request对象传入config配置 与 错误处理对象errHandler 
