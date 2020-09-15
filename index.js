@@ -17,6 +17,8 @@ const errHandler = {
   'default':()=>{}
 }
  */
+
+// 该版本兼容小程序 与web 可拿来直接使用
 const http = new Request(config,errHandler)
 export {
   http
