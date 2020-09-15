@@ -20,20 +20,6 @@ const http = new Request(config,errHandler)
 export {
   http
 }
-
-// 该工具库当前用于小程序 ,如果用于web使用基本相同，已封装了get post put delete,如需扩展可自配，实际使用方式如下
-//app.js文件配置
-import {http} from './wx-request';
-App({
-  // 全局data
-  data: {
-  http
-  }
-})
-
-// 页面js文件使用如下    
-const {data} = getApp();
-const { http } = data;
 // 方法一 ：
 async gets(){
   let res = await http.get(url,options)
