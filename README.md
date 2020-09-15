@@ -34,9 +34,7 @@ async gets(){
 }
 // 方法二 ：
  async request(){
-  await http.request(url,fly.options,config)   
+  await http.request(url,options,config)   
  }
 
 ```
-
-**不足之处敬请谅解！**
